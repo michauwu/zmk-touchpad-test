@@ -18,3 +18,11 @@
 #     artifact-name: corne_left_with_studio
 #
 ---
+include:
+  - board: seeeduino_xiao_ble
+    shield: xiao_tps65
+    snippet: zmk-usb-logging
+    artifact-name: xiao_tps65
+  - board: seeeduino_xiao_ble
+    shield: settings_reset
+    artifact-name: xiao_settings_reset

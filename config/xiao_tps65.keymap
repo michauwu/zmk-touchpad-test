@@ -1,0 +1,16 @@
+/* Keymap lives in boards/shields/xiao_tps65/xiao_tps65.keymap; this file overrides it if you edit it. */
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/pointing.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        default_layer {
+            bindings = <
+                &mkp MB2
+            >;
+        };
+    };
+};

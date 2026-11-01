@@ -1,0 +1,9 @@
+file_format: "1"
+id: xiao_tps65
+name: XIAO TPS65 Touchpad
+type: shield
+url: https://github.com/geeksville/zmk_driver_azoteq
+requires: [seeeduino_xiao_ble]
+features:
+  - keys
+  - pointers
