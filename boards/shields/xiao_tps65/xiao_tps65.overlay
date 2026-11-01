@@ -74,8 +74,8 @@
         // switch-xy;
         invert-x;
         // invert-y;
-        invert-scroll-x;
-        invert-scroll-y;
+        //invert-scroll-x;
+        //invert-scroll-y;
 
         single-tap;
         two-finger-tap;
