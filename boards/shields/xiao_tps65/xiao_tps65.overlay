@@ -72,9 +72,10 @@
 
         /* Adjust to match your TPS65 module orientation / panel */
         // switch-xy;
-        // invert-x;
+        invert-x;
         // invert-y;
-        // invert-scroll-y;
+        invert-scroll-x;
+        invert-scroll-y;
 
         single-tap;
         two-finger-tap;
