@@ -11,6 +11,6 @@ manifest:
       import: app/west.yml
     - name: zmk_driver_azoteq
       remote: geeksville
-      revision: main
+      revision: 66d510249d139569a4060c35bd78c6a2159f83ed
   self:
     path: config
